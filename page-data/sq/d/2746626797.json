@@ -1,1 +1,1 @@
-{"data":{"allNavItemsYaml":{"edges":[{"node":{"title":"Introducción","pages":[{"title":null,"path":"/getting-started"}]}},{"node":{"title":"Arquitectura CP4i","pages":[{"title":null,"path":"/arquitectura-cp4i"}]}}]},"site":{"pathPrefix":"/polaquita7/cp4i-bpu/public"}}}
+{"data":{"allNavItemsYaml":{"edges":[{"node":{"title":"Introducción","pages":[{"title":null,"path":"/getting-started"}]}},{"node":{"title":"Arquitectura CP4i","pages":[{"title":null,"path":"/arquitectura-cp4i"}]}}]},"site":{"pathPrefix":"/cp4i-bpu"}}}
