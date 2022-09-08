@@ -4,7 +4,7 @@ module.exports = {
     description: 'Sesión avanzada BP University',
     keywords: 'gatsby,theme,carbon',
   },
-  pathPrefix: 'polaquita7/cp4i-bpu',
+  pathPrefix: 'polaquita7/cp4i-bpu/public',
   plugins: [
     {
       resolve: 'gatsby-plugin-manifest',
