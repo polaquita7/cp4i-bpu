@@ -1,17 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Theme Carbon',
-    description: 'A Gatsby theme for the carbon design system',
+    title: 'Integration Deep Dive',
+    description: 'Sesión avanzada BP University',
     keywords: 'gatsby,theme,carbon',
   },
-  pathPrefix: `/gtc`,
+  pathPrefix: `/cp4i-bpu`,
   plugins: [
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Carbon Design Gatsby Theme',
+        name: 'Integration Deep Dive - BP University',
         icon: 'src/images/favicon.svg',
-        short_name: 'Gatsby Theme Carbon',
+        short_name: 'Integration Deep Dive',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#161616',
@@ -21,12 +21,7 @@ module.exports = {
     {
       resolve: 'gatsby-theme-carbon',
       options: {
-        mediumAccount: 'carbondesign',
-        repository: {
-          baseUrl:
-            'https://github.com/carbon-design-system/gatsby-theme-carbon',
-          subDirectory: '/packages/example',
-        },
+        remarkPlugins: [require("remark-grid-tables")],
       },
     },
   ],
