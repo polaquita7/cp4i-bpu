@@ -5,8 +5,6 @@ import { calloutLink } from './Homepage.module.scss';
 
 import Carbon from './carbon.jpg';
 
-const FirstLeftText = () => <p>Callout component</p>;
-
 const FirstLeftText = () => <p>¡Bienvenidos!</p>;
 
 const FirstRightText = () => (
