@@ -11,10 +11,11 @@ const links = [
     href: 'https://www.carbondesignsystem.com',
   },
   {
-    title: 'Configuration guide',
-    href: '/guides/configuration',
+    title: 'Cloud Pak Deployment Guides',
+    href: 'https://production-gitops.dev/',
   },
 ];
+
 
 // shouldOpenNewTabs: true if outbound links should open in a new tab
 const CustomResources = () => <ResourceLinks shouldOpenNewTabs links={links} />;
