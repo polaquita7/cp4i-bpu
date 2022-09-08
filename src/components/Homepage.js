@@ -7,37 +7,29 @@ import Carbon from './carbon.jpg';
 
 const FirstLeftText = () => <p>Callout component</p>;
 
+const FirstLeftText = () => <p>¡Bienvenidos!</p>;
+
 const FirstRightText = () => (
   <p>
-    This is a callout component. You can edit the contents by updating the{' '}
-    <a href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/5fe12de31bb19fbfa2cab7c69cd942f55aa06f79/packages/example/src/gatsby-theme-carbon/templates/Homepage.js">
-      pre-shadowed homepage template
-    </a>
-    . You can also provide <code>color</code> and <code>backgroundColor</code>{' '}
-    props to suit your theme.
-    <a
-      className={calloutLink}
-      href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/main/packages/example/src/gatsby-theme-carbon/templates/Homepage.js">
-      Homepage source →
-    </a>
+    Durante esta sesión ahondaremos en los componentes del Cloud Pak for Integration, cómo diseñar una arquitectura y estimar el licenciamiento.
   </p>
 );
 
-const SecondLeftText = () => <p>Callout component</p>;
+const SecondLeftText = () => <p>Gracias por participar</p>;
 
 const SecondRightText = () => (
   <p>
-    You can also not use these components at all by not providing the callout
-    props to the template or writing your own template.
+    Esta sesión está en constante evolución; por lo que valoramos todo el feedback. 
+    Tu honesta opinión y visión nos permite mejorar continuamente. Lo que quieras compartir respecto de la misma, podés enviarlo a 
     <a
       className={calloutLink}
-      href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/main/packages/example/src/gatsby-theme-carbon/templates/Homepage.js">
-      Homepage source →
+      href="mailto:belcecilia@ar.ibm.com">
+      belcecilia@ar.ibm.com →
     </a>
   </p>
 );
 
-const BannerText = () => <h1>Carbon Gatsby theme</h1>;
+const BannerText = () => <h1>IBM Automation - BP University</h1>;
 
 const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
